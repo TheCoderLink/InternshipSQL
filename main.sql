@@ -1,23 +1,24 @@
 CREATE TABLE internships
 (
   name TEXT,
-  worktype TEXT,
-  income TEXT,
-  location TEXT,
+  requirement TEXT,
+  experience TEXT,
+  jobListing TEXT,
+  category TEXT,
   employer TEXT
 );
 
 INSERT INTO internships values
-  ('Front-End Software Engineer Intern 2022', 'Full-time', 'unknown', 'Sunnyvale, CA', 'Illumio'),
-  ('Software Development Internship', 'Internship', '55k-120k', 'Irvine, CA', 'Numecent'),
-  ('Enterprise Software Engineer', 'Full-time', 'unknown', 'Illinois', 'Wolters Kluwer'),
-  ('Computer Support Analyst', 'Full-time', '53k-83k', 'San Diego, CA', 'Strategic Data Systems'),
-  ('IT Support Specialist', 'Full-time', '33k-65k', 'Tracy, CA', 'Versar Incorporated'),
-  ('Internship-Software Developer', 'Full-time', 'unknown', 'Dallas, TX', 'Amadeus'),
-  ('2022 Software Engineer', 'Full-time', '65k-250k', 'Chicago, IL', 'Capgemini'),
-  ('Systems Engineer Specialist, SASE Strategics', 'Full-time', 'unknown', 'Chicago, IL', 'Palo Alto Networks'),
-  ('Software Engineer Intern', 'Full-time', '33k-110k', 'El Segundo, CA', 'Teradata'),
-  ('Associate Software Engineer', 'Full-time', '13k-500k', 'Carlsbad, CA', 'Ricardo plc');
+  ('DLR Industrial Engineering Co-op/Internship, Spring 2023', 'No Degree', 'Little Work Experience' 'Industrial Engineer Internship', 'Science & Engineering', 'Disney'),
+  ('Graphic Design-Creative Services Intern (DPEP), Summer/Fall 2022', 'Associates Degree', 'College Training', 'Graphic Design-Creative Services Internship', 'Advertising & Marketing', 'Disney'),
+  ('Attractions Intern', 'No Degree', 'No Work Experience', 'Unknown', 'Advertising & Marketing', 'Disney'),
+  ('Disneyland Environmental Engineering Professional Intern, Fall 2022', 'Unknown', 'Unknown', 'Attractions Internship', 'Science & Engineering', 'Disney'),
+  ('Intern For Disney – Addressable Account Manager In Newport Beach', 'BS Degree', '1 year Experience', 'Addressable Account Manager Internship', 'Accounting & Finance', 'Disney'),
+  ('Disney Spring Internships – Corporate Lease Accounting Graduate Intern In La Habra', 'BS Degree', 'Little Work Experience', 'Accounting Graduate Internship', 'Disney'),
+  ('Amazon Summer Internship – 2022 Research Science Intern In Moreno Valley', 'Masters Degree', 'Major Work Experience', 'Research Science Internship', 'Science & Engineering', 'Amazon'),
+  ('Instagram Internships – Technical Artist In Moreno Valley', 'No Degree or No Diploma', '5 years Experience' 'Technical Artist Internship', 'Advertising & Marketing', 'Instagram'),
+  ('Public Relations/Marketing Internship', 'Unknown', 'No Work Experience', 'Marketing and Public Relations Internship', 'Advertising & Marketing', 'Borgen Project'),
+  ('Fall 2022 Software Engineering Internship/Co-op', 'Associates Degree', '3 years Experience', 'Software Engineering Internship', 'Computer & IT', 'SpaceX');
 
 .print
 .print 'Internships'
